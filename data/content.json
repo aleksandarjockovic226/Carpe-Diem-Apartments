@@ -1,0 +1,63 @@
+{
+    "en": {
+        "nav": {
+            "nav-about": "About us",
+            "nav-gallery": "Gallery",
+            "nav-facilities": "Facilities",
+            "nav-location": "Location"
+        },
+        "home": {
+            "home-main-p-1": "We would like to invite you to spend your holidays in one of the apartments in our family house in the center of Makarska, situated only 300 meters away from the main Kacic square.",
+            "home-main-p-2": "Couples, friends or family, our apartments are tailored for all needs. Visit our site, be our guest!"
+        },
+        "about": {
+            "about-main-p-1": "Apartments Carpe Diem is a family ran apartment house located 300 metes away from the Kacic square. Close to the amazing nightlife, Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity",
+            "about-main-p-2": "The main beach is only about 700 metes away.",
+            "about-main-p-3": "There is private parking in front of the house.",
+            "about-main-p-4": "All apartments are air-conditioned, have WiFi access and are fully equipped."
+        },
+        "gallery": {
+            "gallery-nav-all": "All",
+            "gallery-nav-apartments": "Apartments",
+            "gallery-nav-seaside": "Seaside",
+            "gallery-nav-downtown": "Downtown",
+            "gallery-nav-festivals": "Festivals"
+        },
+        "facilities": {
+            "facilities-main-p-1": "Apartments Carpe Diem is a family ran apartment house located 300 metes away from the Kacic square. Close to the amazing nightlife, Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity",
+            "facilities-main-p-2": "The main beach is only facilities 700 metes away.",
+            "facilities-main-p-3": "There is private parking in front of the house.",
+            "facilities-main-p-4": "All apartments are air-conditioned, have WiFi access and are fully equipped.",
+            "facilities-apartment-1": {
+                "title": "Studio App 2+1 (30m2)",
+                "description": "This is suitable for 2-3 people, or for families with a child. There is also a cot available upon request. This apartment has its own balcony with seating area, a small kitchen and large bathroom with shower. AC, Parking, free WiFi, water cettle, hair drier, iron There is also a rooftop terrace with sea view with barbecue facilities.",
+                "list-title": "Accommodation includes:",
+                "list-item-1": "AC",
+                "list-item-2": "Parking",
+                "list-item-3": "Free WiFi",
+                "list-item-4": "Water cettle",
+                "list-item-5": "Hair drier",
+                "list-item-6": "Iron",
+                "list-item-7": "Barbicue"
+            },
+            "facilities-apartment-2": {
+                "title": "Studio App 2+1 (30m2)",
+                "description": "This is suitable for 2-3 people, or for families with a child. There is also a cot available upon request. This apartment has its own balcony with seating area, a small kitchen and large bathroom with shower. AC, Parking, free WiFi, water cettle, hair drier, iron There is also a rooftop terrace with sea view with barbecue facilities.",
+                "list-title": "Accommodation includes:",
+                "list-item-1": "AC",
+                "list-item-2": "Parking",
+                "list-item-3": "Free WiFi",
+                "list-item-4": "Water cettle",
+                "list-item-5": "Hair drier",
+                "list-item-6": "Iron",
+                "list-item-7": "Barbicue"
+            },
+            "facilities-button-details": "Details",
+            "facilities-button-reserve": "Reserve"
+        },
+        "location": {},
+        "footer": {
+            "footer-c": "&copy;2022 Apartments Carpe Diem. All Rights Reserved."
+        }
+    }
+}
