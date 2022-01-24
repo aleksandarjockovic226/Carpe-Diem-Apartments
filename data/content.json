@@ -8,12 +8,13 @@
         },
         "home": {
             "home-main-p-1": "We would like to invite you to spend your holidays in one of the apartments in our family house in the center of Makarska, situated only 300 meters away from the main Kacic square.",
-            "home-main-p-2": "Couples, friends or family, our apartments are tailored for all needs. Visit our site, be our guest!"
+            "home-main-p-2": "Couples, friends or family, our apartments are tailored for all needs.",
+            "home-min-p-3": "Visit our site, be our guest!"
         },
         "about": {
-            "about-main-p-1": "Apartments Carpe Diem is a family ran apartment house located 300 metes away from the Kacic square. Close to the amazing nightlife, Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity",
-            "about-main-p-2": "The main beach is only about 700 metes away.",
-            "about-main-p-3": "There is private parking in front of the house.",
+            "about-main-p-1": "Apartments Carpe Diem is a family ran apartment house located 300 meters away from the Kacic square. Close to the amazing nightlife Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity.",
+            "about-main-p-2": "The main beach is only about 700 meters away.",
+            "about-main-p-3": "There is a private parking in front of the house.",
             "about-main-p-4": "All apartments are air-conditioned, have WiFi access and are fully equipped."
         },
         "gallery": {
@@ -24,40 +25,230 @@
             "gallery-nav-festivals": "Festivals"
         },
         "facilities": {
-            "facilities-main-p-1": "Apartments Carpe Diem is a family ran apartment house located 300 metes away from the Kacic square. Close to the amazing nightlife, Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity",
-            "facilities-main-p-2": "The main beach is only facilities 700 metes away.",
-            "facilities-main-p-3": "There is private parking in front of the house.",
-            "facilities-main-p-4": "All apartments are air-conditioned, have WiFi access and are fully equipped.",
             "facilities-apartment-1": {
                 "title": "Studio App 2+1 (30m2)",
-                "description": "This is suitable for 2-3 people, or for families with a child. There is also a cot available upon request. This apartment has its own balcony with seating area, a small kitchen and large bathroom with shower. AC, Parking, free WiFi, water cettle, hair drier, iron There is also a rooftop terrace with sea view with barbecue facilities.",
+                "description-p-1": "This is suitable for 2-3 people, or for families with a child. There is also a cot available upon request. This apartment has its own balcony with seating area, a small kitchen and large bathroom with shower.",
+                "description-p-2": "There is also a rooftop terrace with sea view with barbecue facilities.",
                 "list-title": "Accommodation includes:",
                 "list-item-1": "AC",
                 "list-item-2": "Parking",
                 "list-item-3": "Free WiFi",
                 "list-item-4": "Water cettle",
                 "list-item-5": "Hair drier",
-                "list-item-6": "Iron",
-                "list-item-7": "Barbicue"
+                "list-item-6": "Iron"
             },
             "facilities-apartment-2": {
-                "title": "Studio App 2+1 (30m2)",
-                "description": "This is suitable for 2-3 people, or for families with a child. There is also a cot available upon request. This apartment has its own balcony with seating area, a small kitchen and large bathroom with shower. AC, Parking, free WiFi, water cettle, hair drier, iron There is also a rooftop terrace with sea view with barbecue facilities.",
+                "title": "App 3+2 (48m2)",
+                "description-p-1": "Suitable for 2 couples or for groups of friends.The rooms are not connected so privacy is secured. One bedroom has a twin bed and a single one, the other room has a double bed. The kitchen and dining area are also a separate room. It has a balcony with seating area.",
+                "description-p-2": "There is also a rooftop terrace with sea view with barbecue facilities.",
                 "list-title": "Accommodation includes:",
                 "list-item-1": "AC",
                 "list-item-2": "Parking",
-                "list-item-3": "Free WiFi",
-                "list-item-4": "Water cettle",
-                "list-item-5": "Hair drier",
-                "list-item-6": "Iron",
-                "list-item-7": "Barbicue"
+                "list-item-3": "SAT TV",
+                "list-item-4": "WiFi",
+                "list-item-5": "Water cettle",
+                "list-item-6": "Hair drier",
+                "list-item-7": "Iron"
             },
             "facilities-button-details": "Details",
             "facilities-button-reserve": "Reserve"
         },
-        "location": {},
+        "location": {
+            "location-main-p-1": "Apartments Carpe Diem is a family ran apartment house locate 300 meters away from the Kacic square. Close to the amazing nightlife Makarska has to offer but yet far enough to be away from the noise. Large supermarkets and the local fruit market is in close vicinity.",
+            "location-main-p-2": "The location is perfect for everyone: For those who enjoy nightlife, for families with children since the nearest beach has an aqua park and a playground, for those who enjoy sightseeing can explore the hidden streets of the city, the old monastery and churches.",
+            "location-main-p-3": "The main beach is about 700 meters away but there is also another smaller beach at about 450 meters walking distance."
+        },
         "footer": {
             "footer-c": "&copy;2022 Apartments Carpe Diem. All Rights Reserved."
+        }
+    },
+    "de": {
+        "nav": {
+            "nav-about": "Über uns",
+            "nav-gallery": "Galerie",
+            "nav-facilities": "Einrichtungen",
+            "nav-location": "Ort"
+        },
+        "home": {
+            "home-main-p-1": "Wir möchten Sie einladen, Ihren Urlaub in einer der Ferienwohnungen in unserem Familienhaus im Zentrum von Makarska, nur 300 Meter vom Hauptplatz entfernt Kacic, zu verbringen.",
+            "home-main-p-2": "Paare, Freunde oder Familie, unsere Ferienwohnungen sind auf Ihre Bedürfnisse zugeschnitten!",
+            "home-min-p-3": "Besuchen Sie unsere Seite, seien Sie unser Gast!"
+        },
+        "about": {
+            "about-main-p-1": "Carpe Diem Ferienwohnungen sind ein familiengeführtes Appartementhaus, 300 Meter vom Kacic Platz entfernt. Die Ferienwohnungen befinden sich in der Nähe vom erstaunlichen Nachtleben von Makarska und doch weit genug weg von Lärm. Große Supermärkte und die lokalen Obstmarkt sind in unmittelbarer Nähe.",
+            "about-main-p-2": "Der Hauptstrand ist nur etwa 700 Meter entfernt.",
+            "about-main-p-3": "Es gibt einen privaten Parkplatz vor dem Haus.",
+            "about-main-p-4": "Alle Wohnungen sind klimatisiert, verfügen über kostenlos WLAN und sind komplett ausgestattet."
+        },
+        "gallery": {
+            "gallery-nav-all": "Alle",
+            "gallery-nav-apartments": "Wohnungen",
+            "gallery-nav-seaside": "Strand",
+            "gallery-nav-downtown": "Innenstadt",
+            "gallery-nav-festivals": "Feste"
+        },
+        "facilities": {
+            "facilities-apartment-1": {
+                "title": "Studio App 2+1 (30m2)",
+                "description-p-1": "Dies ist für 2-3 Personen geeignet, oder für Familien mit einem Kind. Es gibt auch ein Kinderbett auf Anfrage erhältlich. Diese Ferienwohnung verfügt über einen eigenen Balkon mit Sitzbereich, eine kleine Küche und ein großes Bad mit Dusche.",
+                "description-p-2": "Es gibt auch eine Dachterrasse mit Blick auf das Meer mit einem Grillplatz.",
+                "list-title": "Die Unterkunft beinhaltet:",
+                "list-item-1": "Klimaanlage",
+                "list-item-2": "Parkplatz",
+                "list-item-3": "kostenlos WLAN",
+                "list-item-4": "Wasserkocher",
+                "list-item-5": "Föhn",
+                "list-item-6": "Bügeleisen"
+            },
+            "facilities-apartment-2": {
+                "title": "App 3+2 (48m2)",
+                "description-p-1": "Geeignet für 2 Paare oder für Gruppen von Freunden. Die Zimmer sind nicht verbunden, so der Privatsphäre gesichert ist. Ein Schlafzimmer hat ein Doppelbett und ein Einzelbett, das andere Zimmer hat ein Doppelbett. Die Küche und Essbereich sind auch ein separater Raum. Es verfügt über einen Balkon mit Sitzbereich.",
+                "description-p-2": "Es gibt auch eine Dachterrasse mit Blick auf das Meer mit einem Grillplatz.",
+                "list-title": "Die Unterkunft beinhaltet:",
+                "list-item-1": "Klimaanlage",
+                "list-item-2": "Parkplatz",
+                "list-item-3": "Satelliten Fernsehen",
+                "list-item-4": "kostenlos WLAN",
+                "list-item-5": "Water cettle",
+                "list-item-6": "Föhn",
+                "list-item-7": "Bügeleisen"
+            },
+            "facilities-button-details": "Details",
+            "facilities-button-reserve": "Reserve"
+        },
+        "location": {
+            "location-main-p-1": "Das Apartments Carpe Diem ist ein familiengeführtes Apartmenthaus, das 300 m vom Kacic-Platz entfernt liegt. In der Nähe des fantastischen Nachtlebens, das Makarska zu bieten hat, aber dennoch weit genug entfernt vom Lärm. Große Supermärkte und der örtliche Obstmarkt befinden sich in unmittelbarer Nähe.",
+            "location-main-p-2": "Die Lage ist für alle perfekt: Für diejenigen, die das Nachtleben genießen, für Familien mit Kindern, da der nächste Strand einen Aquapark und einen Spielplatz hat, für diejenigen, die gerne Sightseeing machen, können die versteckten Straßen der Stadt, das alte Kloster und die Kirchen erkunden.",
+            "location-main-p-3": "Der Hauptstrand ist etwa 700 Meter entfernt, aber es gibt auch einen anderen kleineren Strand in etwa 450 Metern Entfernung."
+        },
+        "footer": {
+            "footer-c": "&copy;2022 Ferienwohnungen Carpe Diem. Alle Rechte vorbehalten."
+        }
+    },
+    "srp": {
+        "nav": {
+            "nav-about": "O nama",
+            "nav-gallery": "Galerija",
+            "nav-facilities": "Objekti",
+            "nav-location": "Lokacija"
+        },
+        "home": {
+            "home-main-p-1": "Pozivamo vas da provedete godišnji odmor u jednom od apartmana u našem porodičnom domu u srcu Makarske, samo 300 metara udaljeno od glavnog Kačićevog trga.",
+            "home-main-p-2": "Parovi, prijatelji ili porodice, naši apartmani su prilagođeni svima.",
+            "home-min-p-3": "Posetite nas, budite naši gosti!"
+        },
+        "about": {
+            "about-main-p-1": "Apartmani Carpe Diem su smešteni u porodičnoj kući u srcu makarske, na samo 300 metara od Kačićevog trga. Blizu sjajnog noćnog života Makarske ali pak dovoljno udaljeno od buke. Veliki supermarketi i gradska pijaca su u neposrednoj blizini.",
+            "about-main-p-2": "Glavna plaža je udaljena oko 700 metara.",
+            "about-main-p-3": "Privatni parking se nalazi u dvorištu kuće.",
+            "about-main-p-4": "Svi apartmani imaju klimu, bežični internet i potpuno su opremljeni."
+        },
+        "gallery": {
+            "gallery-nav-all": "Sve",
+            "gallery-nav-apartments": "Apartmani",
+            "gallery-nav-seaside": "Morska obala",
+            "gallery-nav-downtown": "Centar grada",
+            "gallery-nav-festivals": "Festivali"
+        },
+        "facilities": {
+            "facilities-apartment-1": {
+                "title": "Studio apartman 2+1 (30m2)",
+                "description-p-1": "Ovaj apartman odgovara za 2-3 odrasle osobe ili za porodicu s detetom. Postoji mogućnost ubacivanja dodatnog dečijeg kreveca. There is also a rooftop terrace with sea view with barbecue facilities. Apartman ima balkon sa stolom za ručavanje, malu opremljenu kuhinju kao i veliko kupatilo sa tušem.",
+                "description-p-2": "Gostima je na raspolaganju i terasa na krovu sa pogledom na more na kom se može roštiljati.",
+                "list-title": "Smeštaj uključuje:",
+                "list-item-1": "Klima",
+                "list-item-2": "Parking",
+                "list-item-3": "besplatan internet",
+                "list-item-4": "ketler za vodu",
+                "list-item-5": "fen za kosu",
+                "list-item-6": "pegla"
+            },
+            "facilities-apartment-2": {
+                "title": "App 3+2 (48m2)",
+                "description-p-1": "Ovaj apartman odgovara porodicama s više dece, parovima ili grupi prijatelja. Spavaće sobe nisu prolazne te je privatnost zagarantovana Jedna spavaća soba ima jedan standardni francuski ležaja (160cm) i jedan odvojen krevet, dok druga ima jedan veliki francuski ležaj (180cm). Kuhinja i trpezarija su posebna prostorija.",
+                "description-p-2": "Gostima je na raspolaganju i terasa na krovu sa pogledom na more na kom se može roštiljati.",
+                "list-title": "Smeštaj uključuje:",
+                "list-item-1": "Klima",
+                "list-item-2": "Parking",
+                "list-item-3": "SAT TV",
+                "list-item-4": "Internet",
+                "list-item-5": "ketler za vodu",
+                "list-item-6": "fen za kosu",
+                "list-item-7": "pegla"
+            },
+            "facilities-button-details": "Detalji",
+            "facilities-button-reserve": "Rezerviši"
+        },
+        "location": {
+            "location-main-p-1": "Apartmani Carpe Diem su smešteni u porodičnoj kući u srcu Makarske, na samo 300 metara od Kačićevog trga. Blizu sjajnog noćnog života Makarske ali pak dovoljno udaljeno od buke. Veliki supermarketi i gradska pijaca su u neposrednoj blizini.",
+            "location-main-p-2": "Lokacija je savršena za svakoga. Za one koji uživaju u noćnom životu, za decu budući da je nedaleko od parka za decu i akvaparka na plaži, za one koji uživaju u razgledanju skrivenih ulica Makarske, Franjvačkog manastira i crkve.",
+            "location-main-p-3": "Glavna plaža je oko 700 metara udaljena ali postoji i manja plaža na oko 450 metara udaljenosti. Autobuska stanica sa koje postoji direktna linija za Beograd je oko 500 metara daleko."
+        },
+        "footer": {
+            "footer-c": "&copy;2022 Apartmani Carpe Diem. Sva prava zadržana."
+        }
+    },
+    "hr": {
+        "nav": {
+            "nav-about": "O nama",
+            "nav-gallery": "Galerija",
+            "nav-facilities": "Objekti",
+            "nav-location": "Lokacija"
+        },
+        "home": {
+            "home-main-p-1": "Pozivamo vas da provedete godišnji odmor u jednom od apartmana u našem porodičnom domu u srcu Makarske, samo 300 metara udaljeno od glavnog Kačićevog trga.",
+            "home-main-p-2": "Parovi, prijatelji ili porodice, naši apartmani su prilagođeni svima.",
+            "home-min-p-3": "Posetite nas, budite naši gosti!"
+        },
+        "about": {
+            "about-main-p-1": "Apartmani Carpe Diem su smiješteni u porodičnoj kući u srcu Makarske, na samo 300 metara od Kačićevog trga. Blizu kafića i klubava Makarske ali pak dovoljno udaljeno od buke. Veliki supermarketi i gradska pijaca su na 300 metara.",
+            "about-main-p-2": "Glavna plaža je udaljena oko 700 metara.",
+            "about-main-p-3": "Privatni parking se nalazi u dvorištu kuće.",
+            "about-main-p-4": "Svi apartmani imaju klimu, bežični internet i potpuno su opremljeni."
+        },
+        "gallery": {
+            "gallery-nav-all": "Svi",
+            "gallery-nav-apartments": "Apartmani",
+            "gallery-nav-seaside": "Morska obala",
+            "gallery-nav-downtown": "Centar grada",
+            "gallery-nav-festivals": "Festivali"
+        },
+        "facilities": {
+            "facilities-apartment-1": {
+                "title": "Studio apartman 2+1 (30m2)",
+                "description-p-1": "Ovaj apartman odgovara za 2-3 odrasle osobe ili za porodicu s dijetetom. Postoji mogućnost ubacivanja dodatnog diječijeg kreveca. Apartman ima balkon sa stolom za ručavanje, malu opremljenu kuhinju kao i veliko kupatilo sa tušem.",
+                "description-p-2": "Gostima je na raspolaganju i vidikovac sa poglijedom na more gde se takođe može roštiljati.",
+                "list-title": "Smještaj uključuje:",
+                "list-item-1": "Klima",
+                "list-item-2": "Parking",
+                "list-item-3": "besplatan internet",
+                "list-item-4": "kuhalo za vodu",
+                "list-item-5": "fen za kosu",
+                "list-item-6": "glačalo"
+            },
+            "facilities-apartment-2": {
+                "title": "App 3+2 (48m2)",
+                "description-p-1": "Ovaj apartman odgovara porodicama s više dijece, parovima ili grupi prijatelja. Spavaće sobe nisu prolazne te je privatnost zagarantirana. Jedna spavaća soba ima jedan standardni bračni ležaj (160cm) i jedan odvojen krevet, dok druga ima jedan veliki bračni ležaj (180cm). Kuhinja i trpezarija su posebna prostorija.",
+                "description-p-2": "Gostima je na raspolaganju i terasa na krovu sa pogledom na more na kom se može roštiljati.",
+                "list-title": "Smeštaj uključuje:",
+                "list-item-1": "Klima",
+                "list-item-2": "Parking",
+                "list-item-3": "SAT TV",
+                "list-item-4": "Internet",
+                "list-item-5": "kuhalo za vodu",
+                "list-item-6": "fen za kosu",
+                "list-item-7": "glačalo"
+            },
+            "facilities-button-details": "Pojedinosti",
+            "facilities-button-reserve": "Rezervirajte"
+        },
+        "location": {
+            "location-main-p-1": "Apartmani Carpe Diem su smiješteni u porodičnoj kući u srcu Makarske, na samo 300 metara od Kačićevog trga. Blizu sjajnog noćnog života Makarske ali pak dovoljno udaljeno od buke. Veliki supermarketi i gradska pijaca su oko 300 metara udaljeni.",
+            "location-main-p-2": "Lokacija je savršena za svakoga. Za one koji uživaju u noćnom životu, za dijecu budući da je nedaleko od parka za decu i akvaparka na plaži, za one koji uživaju u razgledanju skrivenih ulica Makarske, Franjvačkog manastira i crkve.",
+            "location-main-p-3": "Glavna plaža je oko 700 metara udaljena ali postoji i manja plaža na oko 450 metara udaljenosti. Autobusni kolodvor je oko 500 metara daleko."
+        },
+        "footer": {
+            "footer-c": "&copy;2022 Apartmani Carpe Diem. Sva prava pridržana."
         }
     }
 }

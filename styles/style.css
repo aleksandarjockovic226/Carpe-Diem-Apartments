@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  font-size: 10px;
+  color: #262626;
+}
+
+h1, h2, h3, h4, h5, h6, a, input, textarea, .title, .lang {
+  font-family: 'Abhaya Libre', serif;
+}
+
+a {
+  text-decoration: none;
+}
