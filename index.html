@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta data-key="desc" name="description" content="">
     <meta data-key="kw" name="keywords" content="">
-    <link rel="stylesheet" href="/styles/style.css">
     <title data-key="title">Welcome - Carpe Diem Apartmans</title>
 </head>
 
@@ -31,33 +30,52 @@
         </nav>
     </header>
     <main>
-        <div>
-            <p data-key="home-main-p-1">We would like to invite you to spend your holidays in one of the apartments in
-                our family house in the center of Makarska, situated only 300 meters away from the main Kacic
-                square.</p>
-            <p data-key="home-main-p-2">Couples, friends or family, our apartments are tailored for all needs. Visit our
-                site, be our guest!</p>
-            <p data-key="home-min-p-3"></p>
-            <button class="toggleForm">V</button>
-            <div class='modal'>
-                <form>
-                    <input type="text" name="firstName" placeholder="First Name">
-                    <input type="text" name="lastName" placeholder="Last Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="number" name="phone" placeholder="Number">
-                    <input type="date" name="check-in" placeholder="Check in">
-                    <input type="date" name="check-in" placeholder="Check out">
-                    <textarea name="message" placeholder="Message"></textarea>
-                    <button data-key="home-btn-send" class="send">Send</button>
-                </form>
-                <p data-key="home-modal-p">Or visit us on: BOOKING LOGO</p>
-                <a data-key="home-modal-a" href=''>CHECK AVAILABILITY</a>
-            </div>
+        <p data-key="home-main-p-1">We would like to invite you to spend your holidays in one of the apartments in
+            our family house in the center of Makarska, on a great location, only 300 meters away from the main
+            Kacic square and a light stroll to one of the beautiful beaches.</p>
+        <p data-key="home-main-p-2">Couples, friends or family, our apartments are tailored for all needs.</p>
+        <p data-key="home-main-p-3">Visit our site, be our guest!</p>
+        <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
+        <button class="toggleForm">V</button>
+        <div class='modal'>
+            <form>
+                <div class="frorm-group firstName">
+                    <label data-key="modal-first-name" for="firstName">First Name</label>
+                    <input type="text" name="firstName">
+                </div>
+                <div class="form-group lastName">
+                    <label data-key="modal-last-name" for="lastName">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+                <div class="form-group email">
+                    <label data-key="modal-email" for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-group phone">
+                    <label data-key="modal-number" for="number">Number</label>
+                    <input type="number" name="phone">
+                </div>
+                <div class="from-group check-in">
+                    <label data-key="modal-check-in" for="check-in">Check-in</label>
+                    <input type="date" name="check-in">
+                </div>
+                <div class="from-group check-out">
+                    <label data-key="modal-check-out" for="check-out">Check-out</label>
+                    <input type="date" name="check-out">
+                </div>
+                <div class="form-group message">
+                    <label data-key="modal-message" for="message">Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <button data-key="modal-btn" class="send">Send</button>
+            </form>
+            <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
+            <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
         </div>
     </main>
-
     <footer>
-        <p data-key="home-footer-c">&copy;2022 Apartments Carpe Diem. All Rights Reserved.</p>
+        <span> &#169; </span>
+        <p data-key="footer-c">2022 Apartments Carpe Diem. All Rights Reserved.</p>
         <a href="/">LOGO</a>
         <ul>
             <li><a href=""></a></li>

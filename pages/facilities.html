@@ -9,40 +9,25 @@
 </head>
 
 <body>
-    <header class="hero">
-        <div class="logo"><a href="/">LOGO-tekst</a></div>
-        <h1 data-key="page-title">Facilities</h1>
-        <div class="languages">
-            <ul>
-                <li>HR</li>
-                <li>RS</li>
-                <li>ENG</li>
-                <li>DE</li>
-            </ul>
-        </div>
+    <header>
+        <a class="logo" href="/">LOGO</a>
+        <div data-key="nav-facilities">FACILITIES</div>
+        <ul>
+            <li class='language' value='hr'>HR</li>
+            <li class='language' value='rs'>RS</li>
+            <li class='language' value='en'>ENG</li>
+            <li class='language' value='de'>DE</li>
+        </ul>
         <nav>
-            <ul>
+            <ul id='nav-list'>
                 <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
                 <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
-                <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
+                <li class='current'><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
                 <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-
-    </main>
-
-    <footer>
-        <p data-key="footer-c">&copy;2022 Apartments Carpe Diem. All Rights Reserved.</p>
-        <a href="/">LOGO</a>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

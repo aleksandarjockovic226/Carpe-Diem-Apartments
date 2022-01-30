@@ -9,20 +9,18 @@
 </head>
 
 <body>
-    <header class="hero">
-        <div class="logo"><a href="/">LOGO-tekst</a></div>
-        <h1 data-key="page-title">About us</h1>
-        <div class="languages">
-            <ul>
-                <li>HR</li>
-                <li>RS</li>
-                <li>ENG</li>
-                <li>DE</li>
-            </ul>
-        </div>
+    <header>
+        <a class="logo" href="/">LOGO</a>
+        <div data-key="nav-about">ABOUT US</div>
+        <ul>
+            <li class='language' value='hr'>HR</li>
+            <li class='language' value='rs'>RS</li>
+            <li class='language' value='en'>ENG</li>
+            <li class='language' value='de'>DE</li>
+        </ul>
         <nav>
-            <ul>
-                <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
+            <ul id='nav-list'>
+                <li class='current'><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
                 <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
                 <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
                 <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
@@ -30,11 +28,53 @@
         </nav>
     </header>
     <main>
-
+        <p data-key="about-main-p-1">Apartments Carpe Diem is a family ran apartment house located 300 meters away from
+            the Kacic square. Close to the amazing nightlife Makarska has to offer but yet far enough to be away from
+            the noise. Large supermarkets and the local fruit market is in close vicinity.</p>
+        <p data-key="about-main-p-2">The main beach is only about 700 meters away.</p>
+        <p data-key="about-main-p-3">There is a private parking in front of the house.</p>
+        <p data-key="about-main-p-4">All apartments are air-conditioned, have WiFi access and are fully equipped.</p>
+        <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
+        <button class="toggleForm">V</button>
+        <div class='modal'>
+            <form>
+                <div class="frorm-group firstName">
+                    <label data-key="modal-first-name" for="firstName">First Name</label>
+                    <input type="text" name="firstName">
+                </div>
+                <div class="form-group lastName">
+                    <label data-key="modal-last-name" for="lastName">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+                <div class="form-group email">
+                    <label data-key="modal-email" for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-group phone">
+                    <label data-key="modal-number" for="number">Number</label>
+                    <input type="number" name="phone">
+                </div>
+                <div class="from-group check-in">
+                    <label data-key="modal-check-in" for="check-in">Check-in</label>
+                    <input type="date" name="check-in">
+                </div>
+                <div class="from-group check-out">
+                    <label data-key="modal-check-out" for="check-out">Check-out</label>
+                    <input type="date" name="check-out">
+                </div>
+                <div class="form-group message">
+                    <label data-key="modal-message" for="message">Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <button data-key="modal-btn" class="send">Send</button>
+            </form>
+            <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
+            <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+        </div>
     </main>
-
     <footer>
-        <p data-key="footer-c">&copy;2022 Apartments Carpe Diem. All Rights Reserved.</p>
+        <span> &#169; </span>
+        <p data-key="footer-c">2022 Apartments Carpe Diem. All Rights Reserved.</p>
         <a href="/">LOGO</a>
         <ul>
             <li><a href=""></a></li>
@@ -43,6 +83,7 @@
             <li><a href=""></a></li>
         </ul>
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

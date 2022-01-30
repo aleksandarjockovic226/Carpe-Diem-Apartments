@@ -1,28 +1,35 @@
-var htmlelement = document.querySelector('html')
-var currentLang = htmlelement.getAttribute('lang')
+document.addEventListener('DOMContentLoaded', function () {
 
-var languages = document.querySelectorAll('.language')
-languages.forEach(item => {
-    item.addEventListener('click', setLang)
-});
+    var ls = localStorage.getItem("lang")
 
-function setLang() {
-    var newLang = this.getAttribute('value');
-    if (currentLang === newLang) { return };
+    var htmlelement = document.querySelector('html')
+    var currentLang = htmlelement.getAttribute('lang')
 
-    htmlelement.setAttribute('lang', newLang);
-    currentLang = newLang
-    translate(newLang);
-}
+    ls !== null ? currentLang = ls : '';
+    translate()
 
-async function translate() {
-    const response = await fetch('http://localhost:5500/data/content.json')
-    const data = await response.json();
+    var languages = document.querySelectorAll('.language')
+    languages.forEach(item => {
+        item.addEventListener('click', setLang)
+    });
 
-    htmlelement.querySelectorAll('[data-key]').forEach(element => {
-        let key = element.getAttribute('data-key')
-        if (key) {
+    function setLang() {
+        var newLang = this.getAttribute('value');
+        if (currentLang === newLang) { return };
+
+        htmlelement.setAttribute('lang', newLang);
+        currentLang = newLang
+        localStorage.setItem("lang", newLang);
+        translate(newLang);
+    }
+
+    async function translate() {
+        const response = await fetch('http://localhost:5500/data/content.json')
+        const data = await response.json();
+
+        htmlelement.querySelectorAll('[data-key]').forEach(element => {
+            let key = element.getAttribute('data-key')
             element.textContent = data[currentLang][key]
-        }
-    })
-}
+        })
+    }
+})
