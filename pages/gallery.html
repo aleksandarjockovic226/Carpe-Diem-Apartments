@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
 
@@ -12,11 +13,11 @@
     <header>
         <a class="logo" href="/">LOGO</a>
         <div data-key="nav-gallery">GALLERY</div>
-        <ul>
-            <li class='language' value='hr'>HR</li>
-            <li class='language' value='rs'>RS</li>
-            <li class='language' value='en'>ENG</li>
-            <li class='language' value='de'>DE</li>
+        <ul class='languages'>
+            <li class='language' value='hr'><span>HR</span></li>
+            <li class='language' value='rs'><span>RS</span></li>
+            <li class='language' value='en'><span>ENG</span></li>
+            <li class='language' value='de'><span>DE</span></li>
         </ul>
         <nav>
             <ul id='nav-list'>
@@ -27,6 +28,63 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <ul>
+            <li class='filter' value='all' data-key="gallery-nav-all">All</li>
+            <li class='filter' value='apartments' data-key="gallery-nav-apartments">Apartments</li>
+            <li class='filter' value='seaside' data-key="gallery-nav-seaside">Seaside</li>
+            <li class='filter' value='downtown' data-key="gallery-nav-downtown">Downtown</li>
+            <li class='filter' value='festivals' data-key="gallery-nav-festivals">Festivals</li>
+        </ul>
+        <div class="galleryGrid">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
+        <button class="toggleForm">V</button>
+        <div class='modal hidden'>
+            <form>
+                <div class="frorm-group firstName">
+                    <label data-key="modal-first-name" for="firstName">First Name</label>
+                    <input type="text" name="firstName">
+                </div>
+                <div class="form-group lastName">
+                    <label data-key="modal-last-name" for="lastName">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+                <div class="form-group email">
+                    <label data-key="modal-email" for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-group phone">
+                    <label data-key="modal-number" for="number">Number</label>
+                    <input type="number" name="phone">
+                </div>
+                <div class="from-group check-in">
+                    <label data-key="modal-check-in" for="check-in">Check-in</label>
+                    <input type="date" name="check-in">
+                </div>
+                <div class="from-group check-out">
+                    <label data-key="modal-check-out" for="check-out">Check-out</label>
+                    <input type="date" name="check-out">
+                </div>
+                <div class="form-group message">
+                    <label data-key="modal-message" for="message">Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <button data-key="modal-btn" class="send">Send</button>
+            </form>
+            <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
+            <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+        </div>
+    </main>
     <script src="/js/script.js"></script>
 </body>
 

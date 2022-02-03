@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta data-key="desc" name="description" content="">
     <meta data-key="kw" name="keywords" content="">
+    <link rel="stylesheet" href="/styles/style.css">
     <title data-key="title">Welcome - Carpe Diem Apartmans</title>
 </head>
 
@@ -14,21 +15,21 @@
     <header>
         <div class="logo">LOGO-skoljka</div>
         <div class="logo">LOGO-tekst</div>
-        <ul>
-            <li class='language' value='hr'>HR</li>
-            <li class='language' value='rs'>RS</li>
-            <li class='language' value='en'>ENG</li>
-            <li class='language' value='de'>DE</li>
+        <ul class='languages'>
+            <li class='language' value='hr'><span>HR</span></li>
+            <li class='language' value='rs'><span>RS</span></li>
+            <li class='language' value='en'><span>ENG</span></li>
+            <li class='language' value='de'><span>DE</span></li>
         </ul>
-        <nav>
-            <ul id='nav-list'>
-                <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
-                <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
-                <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
-                <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul id='nav-list'>
+            <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
+            <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
+            <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
+            <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
+        </ul>
+    </nav>
     <main>
         <p data-key="home-main-p-1">We would like to invite you to spend your holidays in one of the apartments in
             our family house in the center of Makarska, on a great location, only 300 meters away from the main
@@ -37,7 +38,7 @@
         <p data-key="home-main-p-3">Visit our site, be our guest!</p>
         <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
         <button class="toggleForm">V</button>
-        <div class='modal'>
+        <div class='modal hidden'>
             <form>
                 <div class="frorm-group firstName">
                     <label data-key="modal-first-name" for="firstName">First Name</label>

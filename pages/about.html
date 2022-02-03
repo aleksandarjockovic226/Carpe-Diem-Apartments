@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
 
@@ -12,11 +13,11 @@
     <header>
         <a class="logo" href="/">LOGO</a>
         <div data-key="nav-about">ABOUT US</div>
-        <ul>
-            <li class='language' value='hr'>HR</li>
-            <li class='language' value='rs'>RS</li>
-            <li class='language' value='en'>ENG</li>
-            <li class='language' value='de'>DE</li>
+        <ul class='languages'>
+            <li class='language' value='hr'><span>HR</span></li>
+            <li class='language' value='rs'><span>RS</span></li>
+            <li class='language' value='en'><span>ENG</span></li>
+            <li class='language' value='de'><span>DE</span></li>
         </ul>
         <nav>
             <ul id='nav-list'>
@@ -36,7 +37,7 @@
         <p data-key="about-main-p-4">All apartments are air-conditioned, have WiFi access and are fully equipped.</p>
         <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
         <button class="toggleForm">V</button>
-        <div class='modal'>
+        <div class='modal hidden'>
             <form>
                 <div class="frorm-group firstName">
                     <label data-key="modal-first-name" for="firstName">First Name</label>

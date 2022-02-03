@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
 
@@ -12,11 +13,11 @@
     <header>
         <a class="logo" href="/">LOGO</a>
         <div data-key="nav-facilities">FACILITIES</div>
-        <ul>
-            <li class='language' value='hr'>HR</li>
-            <li class='language' value='rs'>RS</li>
-            <li class='language' value='en'>ENG</li>
-            <li class='language' value='de'>DE</li>
+        <ul class='languages'>
+            <li class='language' value='hr'><span>HR</span></li>
+            <li class='language' value='rs'><span>RS</span></li>
+            <li class='language' value='en'><span>ENG</span></li>
+            <li class='language' value='de'><span>DE</span></li>
         </ul>
         <nav>
             <ul id='nav-list'>
@@ -27,6 +28,55 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="facilities">
+            <div class="facility facility1">
+                <div class="gallery">
+                    <ul>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="text">
+                        <h2 data-key="apartment-1-title">Studio App 2+1 (30m2)</h2>
+                        <p data-key="apartment-1-description-p-1">This is suitable for 2-3 people. There is also a cot
+                            available upon request. This apartment has its own balcony with seating area, a kitchen and
+                            bathroom with shower.</p>
+                    </div>
+                    <div class="btns">
+                        <button>Details</button>
+                        <button>Reserve</button>
+                    </div>
+                </div>
+            </div>
+            <div class="facility facility2">
+                <div class="gallery">
+                    <ul>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                        <li><img src="" alt=""></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="text">
+                        <h2 data-key="apartment-2-title">Studio App 2+2 (43m2)</h2>
+                        <p data-key="apartment-2-description-p-1">This is suitable for up to 4 people. There is also a
+                            cot available upon request.This apartment has its own balcony with seating area, a small
+                            kitchen and bathroom with shower.</p>
+                    </div>
+                    <div class="btns">
+                        <button>Details</button>
+                        <button>Reserve</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="/js/script.js"></script>
 </body>
 
