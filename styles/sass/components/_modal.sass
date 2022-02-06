@@ -1,2 +1,46 @@
-.hidden
+.modal
+    padding: 4rem 7rem
     display: none
+    justify-items: center
+    transition-duration: 1s
+
+    form
+        width: 70%
+        display: grid
+        grid-template-columns: 1fr 1fr
+        label
+            color: white
+
+.wrapper
+    display: grid
+    min-height: 4rem
+    margin-top: -2rem
+    width: 100vw
+    background-color: #262626
+
+.book-now
+    display: grid
+    justify-content: center
+    justify-items: center
+    text-align: center
+    .toggleForm
+        background-color: transparent
+        border: none
+        color: #00c2bd
+        text-transform: uppercase
+        font-size: 2.5rem
+    .arrow
+        z-index: 999
+        height: 4rem
+        width: 4rem
+        display: flex
+        justify-items: center
+        justify-content: center
+        align-items: center
+        padding: 1rem
+        background-color: white
+        transition-duration: 1s
+        border-radius: 50%
+
+    .change-direction
+        transform: rotateX(-180deg)

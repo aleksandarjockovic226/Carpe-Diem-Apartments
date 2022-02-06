@@ -1,19 +1,23 @@
 
-var ls = localStorage.getItem("lang")
-
-var htmlelement = document.querySelector('html')
-var currentLang = htmlelement.getAttribute('lang')
-
-
+let ls = localStorage.getItem("lang")
+let htmlelement = document.querySelector('html')
+let currentLang = htmlelement.getAttribute('lang')
+let toggleFormBtn = document.querySelectorAll('.toggleForm')
+let toggleFormArrow = document.querySelector('.arrow')
+let languages = document.querySelectorAll('.language')
+let modal = document.querySelector('.modal')
 
 ls !== null ? currentLang = ls : '';
 translate()
 
-var languages = document.querySelectorAll('.language')
 languages.forEach(item => {
     item.getAttribute('value') == currentLang ? item.classList.add('current') : '';
     item.addEventListener('click', () => setLang(item))
 });
+
+toggleFormBtn.forEach(item => {
+    item.addEventListener('click', formToggle)
+})
 
 function setLang(item) {
     languages.forEach(item => {
@@ -21,7 +25,7 @@ function setLang(item) {
     })
     item.classList.toggle('current')
 
-    var newLang = item.getAttribute('value');
+    let newLang = item.getAttribute('value');
     if (currentLang === newLang) { return };
 
     htmlelement.setAttribute('lang', newLang);
@@ -40,15 +44,10 @@ async function translate() {
     })
 }
 
-
-var toggleFormBtn = document.querySelectorAll('.toggleForm')
-
-toggleFormBtn.forEach(item => {
-    item.addEventListener('click', formToggle)
-})
-
 function formToggle() {
-    document.querySelector('.modal').classList.toggle('hidden')
+    modal.classList.toggle('hidden')
+    modal.classList.contains('hidden') ? modal.style.display = "none" : modal.style.display = "grid"
+    toggleFormArrow.classList.toggle('change-direction')
 }
 
 

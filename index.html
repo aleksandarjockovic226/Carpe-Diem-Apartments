@@ -13,8 +13,10 @@
 
 <body>
     <header>
-        <div class="logo">LOGO-skoljka</div>
-        <div class="logo">LOGO-tekst</div>
+        <div class="logoGroup">
+            <div class='container'><img class="logo" src="./images/logo_symbol.png" alt="logo"></div>
+            <img class="logo" src="./images/logo_white.png" alt="logo">
+        </div>
         <ul class='languages'>
             <li class='language' value='hr'><span>HR</span></li>
             <li class='language' value='rs'><span>RS</span></li>
@@ -31,47 +33,53 @@
         </ul>
     </nav>
     <main>
-        <p data-key="home-main-p-1">We would like to invite you to spend your holidays in one of the apartments in
-            our family house in the center of Makarska, on a great location, only 300 meters away from the main
-            Kacic square and a light stroll to one of the beautiful beaches.</p>
-        <p data-key="home-main-p-2">Couples, friends or family, our apartments are tailored for all needs.</p>
-        <p data-key="home-main-p-3">Visit our site, be our guest!</p>
-        <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
-        <button class="toggleForm">V</button>
-        <div class='modal hidden'>
-            <form>
-                <div class="frorm-group firstName">
-                    <label data-key="modal-first-name" for="firstName">First Name</label>
-                    <input type="text" name="firstName">
+        <div class="desc">
+            <p data-key="home-main-p-1">We would like to invite you to spend your holidays in one of the apartments in
+                our family house in the center of Makarska, on a great location, only 300 meters away from the main
+                Kacic square and a light stroll to one of the beautiful beaches.</p>
+            <p data-key="home-main-p-2">Couples, friends or family, our apartments are tailored for all needs.</p>
+            <p data-key="home-main-p-3">Visit our site, be our guest!</p>
+        </div>
+        <div class="book-now">
+            <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
+            <button class="toggleForm arrow">&or;</button>
+            <div class='wrapper'>
+                <div class='modal hidden'>
+                    <form>
+                        <div class="frorm-group firstName">
+                            <label data-key="modal-first-name" for="firstName">First Name</label>
+                            <input type="text" name="firstName">
+                        </div>
+                        <div class="form-group lastName">
+                            <label data-key="modal-last-name" for="lastName">Last Name</label>
+                            <input type="text" name="lastName">
+                        </div>
+                        <div class="form-group email">
+                            <label data-key="modal-email" for="email">Email</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="form-group phone">
+                            <label data-key="modal-number" for="number">Number</label>
+                            <input type="number" name="phone">
+                        </div>
+                        <div class="from-group check-in">
+                            <label data-key="modal-check-in" for="check-in">Check-in</label>
+                            <input type="date" name="check-in">
+                        </div>
+                        <div class="from-group check-out">
+                            <label data-key="modal-check-out" for="check-out">Check-out</label>
+                            <input type="date" name="check-out">
+                        </div>
+                        <div class="form-group message">
+                            <label data-key="modal-message" for="message">Message</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <button data-key="modal-btn" class="send">Send</button>
+                    </form>
+                    <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
+                    <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
                 </div>
-                <div class="form-group lastName">
-                    <label data-key="modal-last-name" for="lastName">Last Name</label>
-                    <input type="text" name="lastName">
-                </div>
-                <div class="form-group email">
-                    <label data-key="modal-email" for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="form-group phone">
-                    <label data-key="modal-number" for="number">Number</label>
-                    <input type="number" name="phone">
-                </div>
-                <div class="from-group check-in">
-                    <label data-key="modal-check-in" for="check-in">Check-in</label>
-                    <input type="date" name="check-in">
-                </div>
-                <div class="from-group check-out">
-                    <label data-key="modal-check-out" for="check-out">Check-out</label>
-                    <input type="date" name="check-out">
-                </div>
-                <div class="form-group message">
-                    <label data-key="modal-message" for="message">Message</label>
-                    <textarea name="message"></textarea>
-                </div>
-                <button data-key="modal-btn" class="send">Send</button>
-            </form>
-            <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
-            <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+            </div>
         </div>
     </main>
     <footer>
