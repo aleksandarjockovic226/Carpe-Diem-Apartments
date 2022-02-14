@@ -11,63 +11,85 @@
 
 <body>
     <header>
-        <a class="logo" href="/">LOGO</a>
-        <div data-key="nav-location">LOCATION</div>
+        <a class='logo-home-link' href="/"><img class="logo" src="/images/logo_white.png" alt="logo"></a>
+        <h2 class='page-title' data-key="nav-location">LOCATION</h2>
         <ul class='languages'>
             <li class='language' value='hr'><span>HR</span></li>
             <li class='language' value='rs'><span>RS</span></li>
             <li class='language' value='en'><span>ENG</span></li>
             <li class='language' value='de'><span>DE</span></li>
         </ul>
-        <nav>
-            <ul id='nav-list'>
-                <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
-                <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
-                <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
-                <li class='current'><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul id='nav-list'>
+            <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
+            <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
+            <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
+            <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
+        </ul>
+    </nav>
     <main>
-        <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
-        <button class="toggleForm">V</button>
-        <div class='modal hidden'>
-            <form>
-                <div class="frorm-group firstName">
-                    <label data-key="modal-first-name" for="firstName">First Name</label>
-                    <input type="text" name="firstName">
+        <div class="book-now">
+            <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
+            <button class="toggleForm arrow">&or;</button>
+            <div class='wrapper'>
+                <div class='modal hidden'>
+                    <form>
+                        <div class="form-group firstName">
+                            <label data-key="modal-first-name" for="firstName">First Name</label>
+                            <input type="text" name="firstName">
+                        </div>
+                        <div class="form-group lastName">
+                            <label data-key="modal-last-name" for="lastName">Last Name</label>
+                            <input type="text" name="lastName">
+                        </div>
+                        <div class="form-group email">
+                            <label data-key="modal-email" for="email">Email</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="form-group phone">
+                            <label data-key="modal-number" for="number">Number</label>
+                            <input type="number" name="phone">
+                        </div>
+                        <div class="form-group date-input check-in">
+                            <label data-key="modal-check-in" for="check-in">Check-in</label>
+                            <input type="date" name="check-in">
+                        </div>
+                        <div class="form-group date-input check-out">
+                            <label data-key="modal-check-out" for="check-out">Check-out</label>
+                            <input type="date" name="check-out">
+                        </div>
+                        <div class="form-group message">
+                            <label data-key="modal-message" for="message">Message</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <button data-key="modal-btn" class="send">Send</button>
+                    </form>
+                    <div class='booking'>
+                        <div class="container">
+                            <p data-key="modal-p">Or visit us on: </p><img src="/images/booking-logo.png"
+                                alt="booking.com logo">
+                        </div>
+                        <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+                    </div>
                 </div>
-                <div class="form-group lastName">
-                    <label data-key="modal-last-name" for="lastName">Last Name</label>
-                    <input type="text" name="lastName">
-                </div>
-                <div class="form-group email">
-                    <label data-key="modal-email" for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="form-group phone">
-                    <label data-key="modal-number" for="number">Number</label>
-                    <input type="number" name="phone">
-                </div>
-                <div class="from-group check-in">
-                    <label data-key="modal-check-in" for="check-in">Check-in</label>
-                    <input type="date" name="check-in">
-                </div>
-                <div class="from-group check-out">
-                    <label data-key="modal-check-out" for="check-out">Check-out</label>
-                    <input type="date" name="check-out">
-                </div>
-                <div class="form-group message">
-                    <label data-key="modal-message" for="message">Message</label>
-                    <textarea name="message"></textarea>
-                </div>
-                <button data-key="modal-btn" class="send">Send</button>
-            </form>
-            <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
-            <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+            </div>
         </div>
     </main>
+    <footer>
+        <div>
+            <span> &#169; </span>
+            <p data-key="footer-c">2022 Apartments Carpe Diem. All Rights Reserved.</p>
+        </div>
+        <a class='logo' href="/"><img src="/images/logo_footer.png" alt=""></a>
+        <ul>
+            <li><a href="tel:+"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="http://google.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="http://google.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+        </ul>
+    </footer>
     <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/24b75594fa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

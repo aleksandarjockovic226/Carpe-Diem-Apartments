@@ -1,29 +1,39 @@
-header
-    margin-top: 1rem
-    display: flex
+#hero
     flex-direction: row-reverse
+    height: 40vh
+    margin-top: 1rem
+
+header
+    height: 17vh
+    display: flex
+    justify-content: space-between
     padding: 3rem calc( (100vw - 1080px) / 2 )
     background-color: black
-    height: 40vh
     background-image: url("../images/hero.jpg")
-    background-color: #cccccc
     background-position: center
     background-repeat: no-repeat
     background-size: cover
+    .page-title
+        font-size: 4rem
+        color: $white
+    .logo-home-link
+        img
+            height: 4rem
     .logoGroup
         position: absolute
         width: 100vw
         left: 0
-        top: .5rem
+        top: -.35rem
         display: grid
         justify-items: center
         grid-gap: 1rem
         .container
             border-radius: 70%
-            background-color: white
-            padding: 1rem
+            background-color: $white
+            padding: .5rem
         .logo
             height: 8rem
+
     .languages
         z-index: 999
         list-style-type: none
@@ -39,11 +49,11 @@ header
             height: 1rem
             padding: .6rem
             background-color: transparent
-            border: 2px solid white
+            border: 2px solid $white
             border-radius: 50%
             span
-                color: white
+                color: $white
         .current
-            background-color: white
+            background-color: $white
             span
                 color: black

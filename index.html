@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <header>
+    <header id='hero'>
         <div class="logoGroup">
-            <div class='container'><img class="logo" src="./images/logo_symbol.png" alt="logo"></div>
-            <img class="logo" src="./images/logo_white.png" alt="logo">
+            <div class='container'><img class="logo" src="/images/logo_symbol.png" alt="logo"></div>
+            <img class="logo" src="/images/logo_white.png" alt="logo">
         </div>
         <ul class='languages'>
             <li class='language' value='hr'><span>HR</span></li>
@@ -24,7 +24,7 @@
             <li class='language' value='de'><span>DE</span></li>
         </ul>
     </header>
-    <nav>
+    <nav id='hero-nav'>
         <ul id='nav-list'>
             <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
             <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
@@ -46,7 +46,7 @@
             <div class='wrapper'>
                 <div class='modal hidden'>
                     <form>
-                        <div class="frorm-group firstName">
+                        <div class="form-group firstName">
                             <label data-key="modal-first-name" for="firstName">First Name</label>
                             <input type="text" name="firstName">
                         </div>
@@ -62,11 +62,11 @@
                             <label data-key="modal-number" for="number">Number</label>
                             <input type="number" name="phone">
                         </div>
-                        <div class="from-group check-in">
+                        <div class="form-group date-input check-in">
                             <label data-key="modal-check-in" for="check-in">Check-in</label>
                             <input type="date" name="check-in">
                         </div>
-                        <div class="from-group check-out">
+                        <div class="form-group date-input check-out">
                             <label data-key="modal-check-out" for="check-out">Check-out</label>
                             <input type="date" name="check-out">
                         </div>
@@ -76,24 +76,31 @@
                         </div>
                         <button data-key="modal-btn" class="send">Send</button>
                     </form>
-                    <p data-key="modal-p">Or visit us on: BOOKING LOGO</p>
-                    <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+                    <div class='booking'>
+                        <div class="container">
+                            <p data-key="modal-p">Or visit us on: </p><img src="/images/booking-logo.png"
+                                alt="booking.com logo">
+                        </div>
+                        <a data-key="modal-a" href=''>CHECK AVAILABILITY</a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <span> &#169; </span>
-        <p data-key="footer-c">2022 Apartments Carpe Diem. All Rights Reserved.</p>
-        <a href="/">LOGO</a>
+        <div>
+            <span> &#169; </span>
+            <p data-key="footer-c">2022 Apartments Carpe Diem. All Rights Reserved.</p>
+        </div>
+        <a class='logo' href="/"><img src="/images/logo_footer.png" alt=""></a>
         <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="tel:+"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="http://google.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="http://google.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
         </ul>
     </footer>
     <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/24b75594fa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
