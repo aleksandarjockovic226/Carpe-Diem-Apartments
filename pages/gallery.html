@@ -30,7 +30,7 @@
         </ul>
     </nav>
     <main>
-        <ul>
+        <ul class='gallery-filters'>
             <li class='filter' value='all' data-key="gallery-nav-all">All</li>
             <li class='filter' value='apartments' data-key="gallery-nav-apartments">Apartments</li>
             <li class='filter' value='seaside' data-key="gallery-nav-seaside">Seaside</li>
@@ -38,15 +38,15 @@
             <li class='filter' value='festivals' data-key="gallery-nav-festivals">Festivals</li>
         </ul>
         <div class="galleryGrid">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img img='1' class='gallery-image' src="/images/small/1.jpg" alt="">
+            <img img='2' class='gallery-image' src="/images/small/2.jpg" alt="">
+            <img img='3' class='gallery-image' src="/images/small/3.jpg" alt="">
+            <img img='4' class='gallery-image' src="/images/small/4.jpg" alt="">
+            <img img='5' class='gallery-image' src="/images/small/5.jpg" alt="">
+            <img img='6' class='gallery-image' src="/images/small/6.jpg" alt="">
+            <img img='7' class='gallery-image' src="/images/small/7.jpg" alt="">
+            <img img='8' class='gallery-image' src="/images/small/8.jpg" alt="">
+            <img img='9' class='gallery-image' src="/images/small/9.jpg" alt="">
         </div>
         <div class="book-now">
             <button data-key="modal-toggle" class="toggleForm">BOOK NOW</button>
@@ -107,7 +107,13 @@
             <li><a href="http://google.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
         </ul>
     </footer>
-    <script src="/js/script.js"></script>
+    <div class='largeImageWindow'>
+        <i class="fa-solid fa-xmark close"></i>
+        <img class='largeImage'>
+    </div>
+    <script src="/js/translate.js"></script>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/modal.js"></script>
     <script src="https://kit.fontawesome.com/24b75594fa.js" crossorigin="anonymous"></script>
 </body>
 

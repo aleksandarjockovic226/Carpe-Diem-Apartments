@@ -1,11 +1,8 @@
 
 let ls = localStorage.getItem("lang")
 let htmlelement = document.querySelector('html')
-let currentLang = htmlelement.getAttribute('lang')
-let toggleFormBtn = document.querySelectorAll('.toggleForm')
-let toggleFormArrow = document.querySelector('.arrow')
 let languages = document.querySelectorAll('.language')
-let modal = document.querySelector('.modal')
+let currentLang = htmlelement.getAttribute('lang')
 
 ls !== null ? currentLang = ls : '';
 translate()
@@ -15,9 +12,6 @@ languages.forEach(item => {
     item.addEventListener('click', () => setLang(item))
 });
 
-toggleFormBtn.forEach(item => {
-    item.addEventListener('click', formToggle)
-})
 
 function setLang(item) {
     languages.forEach(item => {
@@ -43,11 +37,3 @@ async function translate() {
         element.textContent = data[currentLang][key]
     })
 }
-
-function formToggle() {
-    modal.classList.toggle('hidden')
-    modal.classList.contains('hidden') ? modal.style.display = "none" : modal.style.display = "grid"
-    toggleFormArrow.classList.toggle('change-direction')
-}
-
-
