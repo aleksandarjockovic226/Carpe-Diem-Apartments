@@ -1,0 +1,48 @@
+.facility
+    border-top: dashed 1px $gray
+    padding-top: 2rem
+    display: flex
+    margin-bottom: 2rem
+    .gallery
+        display: flex
+        margin-right: 1rem
+        ul
+            margin-right: 1rem
+            display: grid
+            grid-gap: 1rem
+            li
+                height: 7rem
+                width: 7rem
+                background-color: red
+        .currentImage
+            height: 23rem
+            width: 23rem
+            background-color: blue
+    .content
+        display: grid
+        justify-content: space-between
+        .text
+            position: relative
+            h2
+                font-size: 2rem
+            p
+                margin-top: 2rem
+                font-size: 1.1rem
+                text-overflow: ellipsis
+                overflow: hidden
+        .btns
+            display: flex
+            gap: 1rem
+            align-items: flex-end
+            .details
+                padding: .6rem 4rem
+                font-size: 1.3rem
+                color: white
+                border: 1px solid $main-blue
+                background-color: $main-blue
+            .reserve
+                padding: .6rem 4rem
+                font-size: 1.3rem
+                color: white
+                border: 1px solid $main-yellow
+                background-color: $main-yellow

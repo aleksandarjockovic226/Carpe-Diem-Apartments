@@ -13,6 +13,8 @@ languages.forEach(item => {
 });
 
 
+
+
 function setLang(item) {
     languages.forEach(item => {
         item.classList.remove('current')
@@ -36,4 +38,9 @@ async function translate() {
         let key = element.getAttribute('data-key')
         element.textContent = data[currentLang][key]
     })
+    var facilitiesDesc = document.querySelectorAll('.facilityDesc')
+
+    for (let i = 0; i < facilitiesDesc.length; i++) {
+        facilitiesDesc[i].innerHTML = facilitiesDesc[i].innerHTML.substring(0, 120) + '...';
+    }
 }

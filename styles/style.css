@@ -219,6 +219,10 @@ a {
   border-radius: 50%;
 }
 
+.book-now .arrow i {
+  color: #00c2bd;
+}
+
 .book-now .change-direction {
   -webkit-transform: rotateX(-180deg);
           transform: rotateX(-180deg);
@@ -382,6 +386,10 @@ nav ul li a {
   font-size: 1.2rem;
 }
 
+nav ul .current {
+  background-color: #ffad00;
+}
+
 .gallery-filters {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,4 +455,88 @@ nav ul li a {
   position: fixed;
   color: white;
   font-size: 2.5rem;
+}
+
+.facility {
+  border-top: dashed 1px #262626;
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.facility .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.facility .gallery ul {
+  margin-right: 1rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.facility .gallery ul li {
+  height: 7rem;
+  width: 7rem;
+  background-color: red;
+}
+
+.facility .gallery .currentImage {
+  height: 23rem;
+  width: 23rem;
+  background-color: blue;
+}
+
+.facility .content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.facility .content .text {
+  position: relative;
+}
+
+.facility .content .text h2 {
+  font-size: 2rem;
+}
+
+.facility .content .text p {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.facility .content .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.facility .content .btns .details {
+  padding: .6rem 4rem;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid #00c2bd;
+  background-color: #00c2bd;
+}
+
+.facility .content .btns .reserve {
+  padding: .6rem 4rem;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid #ffad00;
+  background-color: #ffad00;
 }

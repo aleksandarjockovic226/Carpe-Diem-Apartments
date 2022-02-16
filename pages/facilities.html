@@ -23,8 +23,8 @@
     <nav>
         <ul id='nav-list'>
             <li><a data-key="nav-about" href='/pages/about.html'>ABOUT US</a></li>
-            <li class='current'><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
-            <li><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
+            <li><a data-key="nav-gallery" href='/pages/gallery.html'>GALLERY</a></li>
+            <li class='current'><a data-key="nav-facilities" href='/pages/facilities.html'>FACILITIES</a></li>
             <li><a data-key="nav-location" href='/pages/location.html'>LOCATION</a></li>
         </ul>
     </nav>
@@ -36,19 +36,22 @@
                         <li><img src="" alt=""></li>
                         <li><img src="" alt=""></li>
                         <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
                     </ul>
+                    <div class="currentImage">
+                        <img src="" alt="">
+                    </div>
                 </div>
                 <div class="content">
                     <div class="text">
                         <h2 data-key="apartment-1-title">Studio App 2+1 (30m2)</h2>
-                        <p data-key="apartment-1-description-p-1">This is suitable for 2-3 people. There is also a cot
+                        <p class='facilityDesc' data-key="apartment-1-description-p-1">This is suitable for 2-3 people.
+                            There is also a cot
                             available upon request. This apartment has its own balcony with seating area, a kitchen and
                             bathroom with shower.</p>
                     </div>
                     <div class="btns">
-                        <button>Details</button>
-                        <button>Reserve</button>
+                        <button class='details'>Details</button>
+                        <button class='reserve'>Reserve</button>
                     </div>
                 </div>
             </div>
@@ -58,19 +61,22 @@
                         <li><img src="" alt=""></li>
                         <li><img src="" alt=""></li>
                         <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
                     </ul>
+                    <div class="currentImage">
+                        <img src="" alt="">
+                    </div>
                 </div>
                 <div class="content">
                     <div class="text">
                         <h2 data-key="apartment-2-title">Studio App 2+2 (43m2)</h2>
-                        <p data-key="apartment-2-description-p-1">This is suitable for up to 4 people. There is also a
+                        <p class='facilityDesc' data-key="apartment-2-description-p-1">This is suitable for up to 4
+                            people. There is also a
                             cot available upon request.This apartment has its own balcony with seating area, a small
                             kitchen and bathroom with shower.</p>
                     </div>
                     <div class="btns">
-                        <button>Details</button>
-                        <button>Reserve</button>
+                        <button class='details'>Details</button>
+                        <button class='reserve'>Reserve</button>
                     </div>
                 </div>
             </div>
@@ -89,6 +95,7 @@
         </ul>
     </footer>
     <script src="/js/translate.js"></script>
+    <script src="/js/facilities.js"></script>
     <script src="https://kit.fontawesome.com/24b75594fa.js" crossorigin="anonymous"></script>
 </body>
 
